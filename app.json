@@ -4,7 +4,6 @@
     "slug": "may-new-project",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -14,7 +13,9 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -28,7 +29,9 @@
       "favicon": "./assets/favicon.png"
     },
     "extra": {
-      "newsApiKey": "f594b48947ca4c4abc87d237e42df6cb"
-    }
+      "newsApiKey": "f594b48947ca4c4abc87d237e42df6cb",
+      "weatherApiKey": "ccf6ced90e03ee58d54a06f91b15b239"
+    },
+    "description": ""
   }
 }
